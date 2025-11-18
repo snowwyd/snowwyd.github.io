@@ -1,0 +1,61 @@
+# Конфигурация Jekyll для GitHub Pages
+# Позволяет отображать все .md файлы красиво
+
+# Основные настройки
+title: "Подготовка к собеседованиям"
+description: "Документация для подготовки к собеседованиям с нуля"
+baseurl: "" # оставь пустым, если репозиторий называется username.github.io
+url: "" # замени на свой домен, если есть
+
+# Настройки для Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Плагины (только те, что поддерживаются GitHub Pages)
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Исключения (файлы, которые не нужно обрабатывать)
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+  - .gitignore
+
+# Включить обработку всех файлов
+include:
+  - "*.md"
+  - "**/*.md"
+
+# Настройки для кириллицы
+encoding: utf-8
+
+# Тема (можно использовать встроенные темы GitHub Pages)
+theme: minima
+
+# Настройки для отображения файлов
+permalink: pretty
+
+# Автоматически генерировать страницы для всех .md файлов
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
