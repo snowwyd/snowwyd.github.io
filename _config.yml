@@ -44,7 +44,8 @@ encoding: utf-8
 theme: minima
 
 # Настройки для отображения файлов
-permalink: pretty
+# none создает URL вида /path/to/file.html (простой и надежный)
+permalink: none
 
 # Автоматически генерировать страницы для всех .md файлов
 defaults:
