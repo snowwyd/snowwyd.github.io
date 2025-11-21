@@ -253,3 +253,7 @@ git push origin v1.0.1
 - Используй **environment variables** или **secrets** в GitHub
 - Регулярно **обновляй зависимости** (`go mod tidy`)
 - Используй **dependabot** для автоматического обновления
+
+---
+
+**[← Назад к Backend](Backend.html)**
