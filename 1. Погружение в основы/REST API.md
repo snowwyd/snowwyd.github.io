@@ -1,6 +1,7 @@
 ---
 layout: default
-title: REST API
+title: "REST API"
+permalink: /1. Погружение в основы/REST API/
 ---
 
 Для ознакомления с REST API предлагаю посмотреть плейлист про написание его на Go.

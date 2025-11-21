@@ -48,15 +48,11 @@ encoding: utf-8
 permalink: pretty
 
 # Автоматически генерировать страницы для всех .md файлов
+# defaults применяются ко всем файлам автоматически
 defaults:
   - scope:
       path: ""
       type: "pages"
-    values:
-      layout: "default"
-  
-  - scope:
-      path: ""
     values:
       layout: "default"
 
