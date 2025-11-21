@@ -31,18 +31,18 @@ exclude:
   - vendor
   - .git
   - .gitignore
+  - README.md  # README.md используется только для GitHub репозитория, не для сайта
 
 # Включить обработку всех файлов
 include:
   - "*.md"
   - "**/*.md"
-  - "README.md"
 
 # Настройки для кириллицы
 encoding: utf-8
 
 # Тема (можно использовать встроенные темы GitHub Pages)
-theme: minima
+# theme: minima  # Временно отключено для отладки
 
 # Настройки для отображения файлов
 # pretty создает URL вида /path/to/file/ (более надежно для GitHub Pages)
