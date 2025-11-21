@@ -9,5 +9,5 @@ title: Главная
 
 ## Навигация
 
-- [README - Начало работы](README)
+- [README - Начало работы](README.html)
 
