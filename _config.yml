@@ -36,6 +36,7 @@ exclude:
 include:
   - "*.md"
   - "**/*.md"
+  - "README.md"
 
 # Настройки для кириллицы
 encoding: utf-8
