@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Планировщик и Garbage Collector
-permalink: /interview-prep/go-deep-dive/sched-gc
+permalink: /interview-prep/go-deep-dive/sched-gc/
 ---
 
 # Цель

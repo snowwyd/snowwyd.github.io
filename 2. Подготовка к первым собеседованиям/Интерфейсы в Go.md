@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Интерфейсы и типизация
-permalink: /interview-prep/go-deep-dive/interfaces
+permalink: /interview-prep/go-deep-dive/interfaces/
 ---
 
 # Цель

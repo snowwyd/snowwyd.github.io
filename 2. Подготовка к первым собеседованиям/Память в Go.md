@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Память и управление данными
-permalink: /interview-prep/go-deep-dive/memory
+permalink: /interview-prep/go-deep-dive/memory/
 ---
 
 # Цель
