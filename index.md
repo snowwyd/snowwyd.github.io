@@ -37,7 +37,7 @@ permalink: /
 - Паттерны: worker pool, fan-out/fan-in
 - Бенчмарки, pprof
 
-**5. [Базы и кэш]((interview-prep/databases-cache):**
+**5. [Базы и кэш](interview-prep/databases-cache):**
 - PostgreSQL: индексы, транзакции, EXPLAIN
 - Redis: кэширование, базовые структуры
 - Kafka: producer/consumer, топики
